@@ -1,1 +1,1 @@
---  your SQL here
+select * from students inner join checkins on students.id = checkins.student_id where checkins.checked_in_at between '2016/06/01' and '2016/06/30';
